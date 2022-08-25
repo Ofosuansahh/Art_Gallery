@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #ffffff;
+  height: auto;
+  width: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  
+  .main-container {
+    max-width: 1505px;
+    margin: auto;
+  }
+
+  .image{
+    background: url(./assets/desktop/image-map@2x.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    flex: 0 1 60vw;
+    margin: 0;
+    position: relative;
+    top: 0%;
+  }
+
+
+  .image button{
+    height: 70px;
+    padding: 0 2rem;
+    background-color: #151515;
+    transition: background 500ms ease;
+    border: none;
+    margin-left: 160px;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  
+  .image svg{
+    position: absolute;
+    float: left;
+    background-color: #D5966C;
+    padding: 1.45rem 0.8rem;
+    margin-top: -25px;
+    margin-left: -50px;
+  }
+  
+  .image svg:hover{
+    background-color: #151515;
+    cursor: pointer;
+  }
+
+  .image button:hover{
+    background-color: #D5966C;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background: #D5966C;
+}
+
+
+  .container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 548px;
+    background: #151515;
+    color: #ffffff;
+  }
+
+  .content{
+    padding-left: 12rem;
+    padding-top: 5rem;
+    text-transform: uppercase;
+    width: 100px;
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: 900;
+  }
+
+  .content-1{
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+
+  .content-1 h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #D5966C;
+  }
+
+  .content-1 .new{
+    width: 100px;
+    font-size: 25px;
+  }
+
+  .content-1 .usa{
+    font-size: 25px;
+    margin-top: -22px;
+  }
+
+  .content-1 .text{
+    font-size: 23px;
+    width: 500px;
+  }
+
+
+
+.btn:hover {
+  background: #D5966C;
+}
+
+.social-media img:hover{
+  fill: #D5966C;
+  cursor: pointer;
+}
+
+  footer{
+    display: flex;
+    background-color: #D5966C;
+    color: #151515;
+    width: 100%;
+    height: 204px;
+    position: relative;
+    bottom: 0%;
+  }
+  
+  footer h2{
+    color: #151515;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 35px 0 0 35px;
+    letter-spacing: 0.2px;
+    line-height: 1px;
+    position: relative;
+    bottom: 20px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  
+  footer .one{
+    padding-top: 2rem;
+    bottom: 10px;
+  }
+  
+  footer .text3{
+    width: 380px;
+    margin: 35px 0 0 35px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    position: relative;
+    padding-right: 14.5rem;
+  }
+  
+  .social-media{
+    margin: 35px 0 0 35px;
+    display: flex;
+    
+  }
+  
+  .social-media svg{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    padding-top: 1rem;
+  }
+
+
+  svg path:hover{
+    fill: #ffffff;
+    cursor: pointer;
+    transition: background 500ms ease;
+  }
+
+
+
+
+/* Screen Sizes 480px and down */
+@media (max-width: 480px) {
+    .main-container {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .image{
+        background: url(./assets/mobile/image-map@2x.png);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        flex: 0 1 60vw;
+        margin: 0;
+        position: relative;
+        top: 0%;
+      }
+
+      .image button{
+        height: 70px;
+        padding: 0.1rem 1rem;
+        background-color: #151515;
+        transition: background 500ms ease;
+        border: none;
+        margin-left: 20px;
+      }
+
+
+      .image svg{
+        position: absolute;
+        float: left;
+        background-color: #D5966C;
+        padding: 1.45rem 0.8rem;
+        margin-top: -25px;
+        margin-left: -40px;
+      }
+    
+
+
+      .container-1 {
+        display: block;
+        grid-template-columns: repeat(2, 1fr);
+        height: 493px;
+        background: #151515;
+        color: #ffffff;
+      }
+    
+      .content{
+        padding-left: 1rem;
+        padding-top: 1rem;
+        text-transform: uppercase;
+        width: 300px;
+        font-size: 18px;
+        line-height: 55px;
+        font-weight: 900;
+      }
+
+      .content-1{
+        padding-top: 0;
+        padding-left: 1rem;
+      }
+    
+      .content-1 h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #D5966C;
+      }
+    
+      .content-1 .new{
+        width: 80px;
+        font-size: 18px;
+        line-height: 25px;
+      }
+    
+      .content-1 .usa{
+        font-size: 18px;
+        margin-top: -16px;
+      }
+    
+      .content-1 .text{
+        font-size: 18px;
+        width: 310px;
+      }
+
+      footer{
+        display: block;
+        background-color: #D5966C;
+        color: #151515;
+        width: 100%;
+        height: 333px;
+        position: relative;
+        bottom: 0%;
+        margin-top: -40px;
+      }
+    
+      footer h2{
+        color: #151515;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 35px 0 0 35px;
+        letter-spacing: 0.2px;
+        line-height: 1px;
+        position: relative;
+        bottom: 20px;
+        padding-left: 0;
+        padding-right: 1rem;
+      }
+    
+      footer .one{
+        padding-top: 3.5rem;
+        bottom: 10px;
+      }
+    
+      footer .text3{
+        width: 260px;
+        margin: 35px 0 0 35px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 28px;
+        padding-right: 0.5rem;
+      }
+    
+      .social-media{
+        margin: 35px 0 0 35px;
+        display: flex;
+        
+      }
+    
+      .social-media img{
+        height: 20px;
+        width: 20px;
+        margin-right: 20px;
+      }
+}
+
+
+
+
+@media (min-width: 500px) and (max-width: 1024px){
+    .main-container {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .image{
+        background: url(./assets/tablet/image-map@2x.png);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+        flex: 0 1 60vw;
+        margin: 0;
+        position: relative;
+        top: 0%;
+    }
+
+    .image button{
+        margin-left: 30px;
+      }
+
+    
+    .content{
+        padding-left: 2rem;
+        padding-top: 5rem;
+        text-transform: uppercase;
+        width: 70px;
+        font-size: 25px;
+        line-height: 55px;
+        font-weight: 900;
+        letter-spacing: -1px;
+    }
+
+    .content-1{
+        padding-top: 5rem;
+        padding-left: 15rem;
+        padding-right: 1rem;
+    }
+
+    .content-1 .text{
+        font-size: 23px;
+        width: 410px;
+    }
+
+    footer{
+        display: flex;
+        background-color: #D5966C;
+        color: #151515;
+        width: 100%;
+        height: 204px;
+        position: relative;
+        bottom: 0%;
+      }
+      
+      footer h2{
+        color: #151515;
+        font-size: 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 35px 0 0 35px;
+        letter-spacing: -1px;
+        line-height: -1px;
+        position: relative;
+        bottom: 20px;
+        padding-left: 0;
+        padding-right: 10rem;
+        width: 200px;
+      }
+      
+      footer .one{
+        padding-top: 2rem;
+        bottom: 10px;
+      }
+      
+      footer .text3{
+        width: 380px;
+        margin: 35px 0 0 35px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        position: relative;
+        padding-right: 1rem;
+        margin-left: -120px;
+        width: 300px;
+        margin-right: 70px;
+      }
+      
+      .social-media{
+        margin: 35px 0 0 35px;
+        display: flex;
+        
+      }
+      
+      .social-media img{
+        height: 20px;
+        width: 20px;
+        margin-right: 20px;
+        padding-top: 1rem;
+      }
+}
