@@ -8,6 +8,16 @@ body {
   width: auto;
 }
 
+p{
+    font-family: 'Outfit', sans-serif;
+    color: #444444;
+}
+  
+h1, h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color: #151515;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -87,9 +97,17 @@ img {
     font-weight: 900;
   }
 
+  .content h1{
+    color: #ffffff;
+  }
+
   .content-1{
     padding-top: 5rem;
     padding-left: 3rem;
+  }
+
+  .content-1 p{
+    color: #ffffff;
   }
 
   .content-1 h2{
